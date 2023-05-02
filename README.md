@@ -6,9 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,10 +19,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
+- Enable IIS in windows with CGI,
+- PHP Manager, Rewrite Module  PHP 7.3.8, VC_redist.x86.exe, MySQL 5.5.62, osTicket v1.15.8, HeidiSQL 
+- Go to PHP manager, enable php_imap.dll, enable php_intl.dll, enable php_opcache.dll, and refresh OS Ticket
+- Open Heidi SQL, Create a new session, root/Password1, Connect to the session, Create a database called “osTicket”
+
 - Item 5
 
 <h2>Installation Steps</h2>
